@@ -5,12 +5,33 @@
     box-sizing: border-box;
 }
 body {
-
     font-family: 'Montserrat', sans-serif;
 }
-.main-content {
+.main-section {
     display: flex;
+    background-color: rosybrown;
+   /* padding-top: 40px;
+    padding-bottom: 40px; */
 }
-.sidebar {
-    /*display: flex;*/
+.container {
+    max-width: 1200px;
+    height: 300px;
+    background-color: aqua; 
+}
+.side-bar {
+  /*  background-color: royalblue; */
+}
+.main-logo img {
+    width: 30px;
+}
+.main-content {
+   display: flex;
+   margin-top: 30px;
+}
+.box {
+    background-color: salmon;
+    height: 100px;
+    width: 100px;
+    margin: 10px; /*per dare spazio ai box*/
+    
 }
