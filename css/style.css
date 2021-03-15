@@ -6,32 +6,65 @@
 }
 body {
     font-family: 'Montserrat', sans-serif;
+    color: white;
+    background: #000;
 }
-.main-section {
+/* MAIN CONTENT   */
+.main-page {
+    height: calc(100vh - 100px);
     display: flex;
-    background-color: rosybrown;
-   /* padding-top: 40px;
-    padding-bottom: 40px; */
 }
-.container {
-    max-width: 1200px;
-    height: 300px;
-    background-color: aqua; 
+/*  SIDEBAR  */
+.sidebar {
+    flex-basis: 50px;
+    background: #000;
 }
-.side-bar {
-  /*  background-color: royalblue; */
+/* SIDEBAR-TOP */
+.sidebar-top {
+    height: calc(100% - 80px);
 }
-.main-logo img {
-    width: 30px;
+.logo {
+    width: 40%;
+    margin: 10px auto;
 }
-.main-content {
-   display: flex;
-   margin-top: 30px;
+/* nav home  */
+.nav-home li {
+    width: 40%;
+    margin: 0 auto;
+    list-style: none;
 }
-.box {
-    background-color: salmon;
+/* nav playlist */
+.nav-playlist li {
+    margin: 0 auto;
+}
+.nav-playlist.hidden li {
+    visibility: hidden;
+}
+/*  SIDEBAR-BOTTOM  */
+.sidebar-bottom {
+    height: 80px;
+}
+.installa-app,
+.account {
+   width: 50%;
+   margin: 0 auto 10px;
+}
+.account img {
+    background: rgb(109, 108, 108);
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+
+
+/*  CONTENT / */
+.content {
+    flex-grow: 1; /*cosi prende tutta la oarte mancante della pagina*/
+    background: #141922;
+}
+
+/*FOOTER / MENU RAPIDO*/
+.menu-rapido {
     height: 100px;
-    width: 100px;
-    margin: 10px; /*per dare spazio ai box*/
-    
+    background: rgb(38, 38, 38);
 }

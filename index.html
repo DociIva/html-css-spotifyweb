@@ -16,33 +16,63 @@
 
 </head>
 <body>
-    <!--MAIN-->
-    <main class="main-section">
-         <!--CONTAINER / MAIN-->
-     <section class="container">
-         <!--SIDEBAR zona di spotify con la barra della navigazione a sinistra-->
-         <div class="side-bar">
-             <div class="main-logo">
-                 <!--logo di spotify-->
-                 <img src="./img/logo-small.svg" alt="logo spotify">
-                 
-             </div>
-             <div class="side-navigazione">
-                <!--navigazione del lato sinistro-->
-                <h3>Lorem</h3>
-                <h3>lorem</h3>
-                <h3>lorem</h3>
+   <div class="container">
+       <!--MAIN CONTENT -->
+       <main class="main-page">
+          <!--SIDEBAR-->
+          <aside class="sidebar">
+              <!-- laterale della nav della playlist-->
+             <section class="sidebar-top"> 
+                <div class="logo">
+                   <img src="./img/logo-small.svg" alt="logo-spotify">
+                </div>
+                <!--navigazione home / cerca / libreria-->
+                <nav>
+                    <ul class="nav-home">
+                        <li><img src="./img/home.svg" alt="Home"></li>
+                        <li><img src="./img/search.svg" alt="cerca"></li>
+                        <li><img src="./img/libreria.svg" alt="libreria"></li>
+                    </ul>
+                </nav>
+                <!--navigazione playlist -->
+                <nav>
+                    <ul class="nav-playlist hidden">
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                    </ul>
+                </nav>
+               
+             </section>
+              <!-- account-->
+             <section class="sidebar-bottom"> 
+                <div class="installa-app">
+                   <img src="./img/download.svg" alt="download">
+                </div>
+                <div class="account">
+                    <img src="./img/profile.svg" alt="profilo">
+                </div>
+             </section>
 
-             </div>
-         </div>
+          </aside> <!--chiusura della sidebar-->
+          <div class="content">
+              content qui
+          </div>
 
-     </section>
-     
+       </main>
+   
+      <!--FOOTER-->
+       <footer class="menu-rapido">
+           menu rapido
         
-    </div>
-      
-    
-    </main>
+       </footer>
+   </div>
     
 </body>
 </html>
