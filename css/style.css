@@ -9,6 +9,10 @@ body {
     color: white;
     background: #000;
 }
+/*UTILI*/
+.hidden {
+    visibility: hidden;
+}
 /* MAIN CONTENT   */
 .main-page {
     height: calc(100vh - 100px);
@@ -24,12 +28,12 @@ body {
     height: calc(100% - 80px);
 }
 .logo {
-    width: 40%;
+    width: 30px;
     margin: 10px auto;
 }
 /* nav home  */
 .nav-home li {
-    width: 40%;
+    width: 35px;
     margin: 0 auto;
     list-style: none;
 }
@@ -44,10 +48,13 @@ body {
 .sidebar-bottom {
     height: 80px;
 }
-.installa-app,
+.installa-app {
+    width: 20px;
+    margin: 0 auto 10px;
+}
 .account {
-   width: 50%;
-   margin: 0 auto 10px;
+    width: 30px;
+    margin: 0 auto 10px;
 }
 .account img {
     background: rgb(109, 108, 108);
@@ -124,6 +131,87 @@ body {
 
 /*FOOTER / MENU RAPIDO*/
 .menu-rapido {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     height: 100px;
     background: rgb(38, 38, 38);
+}
+.menu-rapido img {
+    width: 40px;
+    margin: 10px 10px;
+}
+.footer-left {
+    display: flex;
+    align-items: center;
+}
+.footer-left .nome {
+    list-style: none;
+    color: #6c6c6c;
+}
+.footer-left .nome li:first-child {
+    color: #fff;
+}
+.footer-left .text {
+    font-size: 12px;
+    color: #6c6c6c;
+}
+.love {
+    margin-left: 15px;
+    list-style-type: none;
+    color: #6c6c6c;
+}
+.play {
+    display: flex;
+    align-items: center;
+}
+.play-left li {
+    display: inline-block;
+    list-style:none;
+    margin: 7px;   
+}
+.play-center li {
+    display: inline-block;
+    list-style: none;
+    margin: 7px;
+}
+.play-center i {
+    font-size: 30px;
+}
+/*barra music sotto */
+.barra-music {
+    display: flex;
+    align-items: center;
+}
+.music-play {
+    display: flex;
+    align-items: center;
+}
+.music-play li {
+    list-style: none;
+    margin: 5px;
+}
+.music-play li:nth-child(2) {
+    width: 80px;
+    height: 5px;
+    background: #525252;
+    border-radius: 30px;
+}
+
+.play-right li {
+    display: inline-block;
+    list-style: none;
+    margin: 7px;
+}
+/*footer right*/
+.audio-icons li {
+    display: inline-block;
+    list-style: none;
+    margin: 5px;
+}
+.audio-icons li:last-child {
+    width: 80px;
+    height: 5px;
+    background: #525252;
+    border-radius: 20px;
 }
