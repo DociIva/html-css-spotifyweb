@@ -9,10 +9,7 @@ body {
     color: white;
     background: #000;
 }
-/*UTILI*/
-.hidden {
-    visibility: hidden;
-}
+
 /* MAIN CONTENT   */
 .main-page {
     height: calc(100vh - 100px);
@@ -25,11 +22,14 @@ body {
 }
 /* SIDEBAR-TOP */
 .sidebar-top {
-    height: calc(100% - 80px);
+    height: calc(100% - 110px);
 }
-.logo {
-    width: 30px;
-    margin: 10px auto;
+.logo .f-p {
+    width: 35px;
+    margin: 10px;
+}
+.logo .f-g {
+    visibility: hidden;
 }
 /* nav home  */
 .nav-home li {
@@ -37,16 +37,26 @@ body {
     margin: 0 auto;
     list-style: none;
 }
+/*nav-text-hidden s*/
+.nav-text.hidden {
+    visibility: hidden;
+}
 /* nav playlist */
 .nav-playlist li {
     margin: 0 auto;
 }
-.nav-playlist.hidden li {
+.playlist.hidden {
     visibility: hidden;
 }
 /*  SIDEBAR-BOTTOM  */
+.p-hidden {
+    visibility: hidden;
+}
 .sidebar-bottom {
-    height: 80px;
+    height: 110px;
+}
+.hr.hidden {
+    visibility: hidden;
 }
 .installa-app {
     width: 20px;
@@ -58,8 +68,7 @@ body {
 }
 .account img {
     background: rgb(109, 108, 108);
-    border-radius: 50%;
-    overflow: hidden;
+    border-radius: 50px;
 }
 
 /*  CONTENT / */
@@ -128,7 +137,10 @@ body {
 .song img  {
     width: 100%;
 }
+.nav-home  {
+   
 
+}
 /*FOOTER / MENU RAPIDO*/
 .menu-rapido {
     display: flex;

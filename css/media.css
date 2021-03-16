@@ -7,5 +7,80 @@ l - 1200 in su
 */
 /*MEDIA S 601PX - 767PX*/
 @media screen and (min-width:601px) {
-    
-}
+     /* sidebar top , cambio logo */
+    .logo .f-p {
+       display: none;
+    }
+    .logo .f-g {
+       visibility: visible;
+       width: 150px;
+       margin: 20px;
+    }
+    .nav-box::after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+    .nav-home {
+        float: left;
+        width: 40%;
+    }
+    .nav-text li {
+        list-style: none;
+        margin-top: 22px;
+        font-size:12px;
+    }
+    .nav-text.hidden {
+        visibility: visible;
+    }
+    .nav-text {
+        float: left;
+        width: 50%;
+    }
+    .playlist.hidden {
+        visibility: visible;
+        margin: 15px 10px;
+    }
+    .nav-playlist li {
+        margin: 0 5px;
+        font-size: 10px;
+        color: #a3a3a3;
+        padding: 15px;
+        list-style: none;
+    }
+    .nav-playlist li i {
+        color: #a3a3a3;
+        font-size: 40px;
+        margin-right: 5px;
+    }
+    /*account*/
+    .p-hidden {
+        visibility: visible;
+    }
+    .hr.hidden {
+        visibility: visible;
+        width: 90%;
+        margin: 5px auto;
+        border-radius: 20px;
+    }
+    .installa-app {
+        display: flex;
+        width: 20px;
+        margin-left: 10px;
+    }
+    .installa-app p {
+        font-weight: 200;
+        font-size: 10px;
+        margin-left: 5px;
+    }
+    .account {
+        display: flex;
+        width: 25px;
+        margin-left: 10px;
+    }
+    .account p {
+        font-weight: 200;
+        font-size: 10px;
+        margin-left: 5px;;
+    }
+

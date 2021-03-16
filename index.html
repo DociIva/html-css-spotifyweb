@@ -13,7 +13,6 @@
      <link rel="stylesheet" href="./css/style.css">
      <!--MEDIA-->
      <link rel="stylesheet" href="./css/media.css">
-
 </head>
 <body>
    <div class="container">
@@ -24,30 +23,36 @@
               <!-- laterale della nav della playlist-->
              <section class="sidebar-top"> 
                 <div class="logo">
-                   <img src="./img/logo-small.svg" alt="logo-spotify">
-                   <img class="hidden" src="./img/logo.svg" alt="logo-con-scritta">
+                   <img class="hidden f-p" src="./img/logo-small.svg" alt="logo-spotify">
+                   <img class="hidden f-g" src="./img/logo.svg" alt="logo-con-scritta">
                 </div>
                 <!--navigazione home / cerca / libreria-->
-                <nav>
+                <nav class="nav-box"> 
                     <ul class="nav-home">
                         <li><img src="./img/home.svg" alt="Home"></li>
                         <li><img src="./img/search.svg" alt="cerca"></li>
                         <li><img src="./img/libreria.svg" alt="libreria"></li>
                     </ul>
+                    <ul class="nav-text hidden">
+                        <li>Home</li>
+                        <li>Cerca</li>
+                        <li>La tua libreria</li>
+                    </ul>
+                    
                 </nav>
+            
                 <!--navigazione playlist 
                     xs è nascosta -->
-                <nav>
-                    <ul class="nav-playlist hidden">
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
+                <nav class="playlist hidden">
+                   <ul class="nav-playlist">
+                        <h5>PLAYLIST</h5>
+                        <li><i class="fas fa-plus-square"></i>Crea playlist</li>
+                        <li>Nome playlist</li>
+                        <li>Nome playlist</li>
+                        <li>Nome playlist</li>
+                        <li>Nome playlist</li>
+                        <li>Nome playlist</li>
+                        <li>Nome playlist</li>
                     </ul>
                 </nav>
                
@@ -56,9 +61,12 @@
              <section class="sidebar-bottom"> 
                 <div class="installa-app">
                    <img src="./img/download.svg" alt="download">
+                    <p class="p-hidden">installa app</p>      
                 </div>
+                <hr class="hr hidden">
                 <div class="account">
                     <img src="./img/profile.svg" alt="profilo">
+                    <p class="p-hidden">John Doe</p>
                 </div>
              </section>
 
