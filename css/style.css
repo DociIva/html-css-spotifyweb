@@ -32,12 +32,20 @@ body {
     visibility: hidden;
 }
 /* nav home  */
+.nav-home li:hover {
+    border-left: 4px solid lawngreen;
+    cursor: pointer;
+}
 .nav-home li {
     width: 35px;
     margin: 0 auto;
     list-style: none;
 }
 /*nav-text-hidden s*/
+.nav-text:hover {
+    border-left: 3px solid lawngreen;
+    cursor: pointer;
+}
 .nav-text.hidden {
     visibility: hidden;
 }
@@ -62,11 +70,15 @@ body {
     width: 20px;
     margin: 0 auto 10px;
 }
+.installa-app img {
+    width: 15px;
+}
 .account {
     width: 30px;
     margin: 0 auto 10px;
 }
 .account img {
+    width: 30px;
     background: rgb(109, 108, 108);
     border-radius: 50px;
 }
@@ -130,6 +142,9 @@ body {
     color: #65676d;
     padding: 10px;
 }
+.content-categorie .layout:hover {
+
+}
 .albums-liste {
     display: flex;
     flex-wrap: wrap; /*per andare a capo*/
@@ -156,10 +171,6 @@ body {
 .song h4 {
     font-size: 12px;
     color: #5d6166;
-}
-.nav-home  {
-   
-
 }
 /*FOOTER / MENU RAPIDO*/
 .menu-rapido {
@@ -224,10 +235,11 @@ body {
 .bar-2 {
     position: absolute;
     background:indianred;
+    top:23%;
     left: 16%;
     width: 50px;
     height: 3px;
-    border-radius: 20px;
+    border-radius: 50px;
 
 }
 .music-play li {
@@ -253,12 +265,12 @@ body {
     align-items: center;
     position: relative;
 }
-
 .scor {
     position: absolute;
+    top:25%;
     left: 44%;
     background:indianred;
-    border-radius: 40px;
+    border-radius: 50px;
     width: 30px;
     height: 3px;
 }

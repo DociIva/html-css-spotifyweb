@@ -46,6 +46,10 @@ l - 1200 in su
         visibility: visible;
         margin: 15px 10px;
     }
+    .nav-playlist li:hover  {
+        border-left: 3px solid lawngreen;
+        cursor: pointer;
+    }
     .nav-playlist li {
         margin: 0 5px;
         font-size: 10px;
@@ -120,7 +124,7 @@ l - 1200 in su
 @media screen and (min-width:1200px) {
     /*NAV SOPRA IMMAGINI*/
      .lista-menu li {
-         flex-basis: calc(100% / 6);
+        flex-basis: calc(100% / 6);
      }
     /*IMMAGINI CANZONI*/
     .albums-liste .song {
@@ -147,8 +151,25 @@ l - 1200 in su
         width: 100px;
     }
     /*BARRA DI SCORRIMENTO*/
+    .scor {
+        top: 17%;
+    }
     .bar-2 {
+        top: 22%;
         left: 6%;
-     }
-   
+    }
+    /* MAIN CONTENT   */
+    .main-page {
+        height: calc(100vh - 80px);
+    }
+    .menu-rapido {
+        height: 80px;
+    }
+
+    .sidebar-top {
+        height: calc(100% - 70px);
+    }
+    .sidebar-bottom {
+        height: 70px;
+    }
 }
