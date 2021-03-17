@@ -111,6 +111,10 @@ l - 1200 in su
     .music-play li:nth-child(2) {
         width: 250px;
     }
+    /*BARRA DI SCORRIMENTO*/
+    .bar-2 {
+        left: 9%;
+    }
 }
 /******  MEDIA L - 1200 IN SU'*******/
 @media screen and (min-width:1200px) {
@@ -142,5 +146,9 @@ l - 1200 in su
     .audio-icons li:last-child {
         width: 100px;
     }
+    /*BARRA DI SCORRIMENTO*/
+    .bar-2 {
+        left: 6%;
+     }
    
 }

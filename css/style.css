@@ -219,6 +219,16 @@ body {
 .music-play {
     display: flex;
     align-items: center;
+    position: relative;
+}
+.bar-2 {
+    position: absolute;
+    background:indianred;
+    left: 16%;
+    width: 50px;
+    height: 3px;
+    border-radius: 20px;
+
 }
 .music-play li {
     list-style: none;
@@ -241,6 +251,16 @@ body {
 .audio-icons {
     display: flex;
     align-items: center;
+    position: relative;
+}
+
+.scor {
+    position: absolute;
+    left: 44%;
+    background:indianred;
+    border-radius: 40px;
+    width: 30px;
+    height: 3px;
 }
 .audio-icons li {
     list-style: none;
