@@ -16,6 +16,11 @@ l - 1200 in su
        width: 150px;
        margin: 20px;
     }
+    /*NAV SOPRA IMMAGINI*/
+    .Lista-menu li {
+        flex-basis: calc(100% / 3);
+        padding: 5px;   
+    }
     .nav-box::after {
         content: "";
         display: table;
@@ -83,4 +88,59 @@ l - 1200 in su
         font-size: 10px;
         margin-left: 5px;;
     }
-
+}
+/****MEDIA M - 768px - 1199px*****/
+@media screen and (min-width:767px) {
+    /*NAV SOPRA IMMAGINI*/
+    .lista-menu li {
+        flex-basis: calc(100% / 5);
+        padding: 5px;   
+    }
+    /*IMMAGINI CANZONI*/
+    .albums-liste .song {
+        flex-basis: calc(100% / 4 - 15px);
+    }
+    .love {
+        display: flex;
+        align-items: center;
+    }
+    .love li {
+        margin: 8px;
+    }
+    /*BARRA DELLO SCORRIMENTO*/
+    .music-play li:nth-child(2) {
+        width: 250px;
+    }
+}
+/******  MEDIA L - 1200 IN SU'*******/
+@media screen and (min-width:1200px) {
+    /*NAV SOPRA IMMAGINI*/
+     .lista-menu li {
+         flex-basis: calc(100% / 6);
+     }
+    /*IMMAGINI CANZONI*/
+    .albums-liste .song {
+        flex-basis: calc(100% / 6 - 15px);
+    }
+    /*MUSICA SOTTO*/
+    .play ul {
+        font-size: 10px;
+    }
+    .play-center i {
+        font-size: 20px;
+    }
+    .music-play li:nth-child(2) {
+        width: 400px;
+    }
+    .audio-icons {
+        margin-right: 10px;
+    }
+    .audio-icons li {
+        margin: 10px;
+        font-size: 10px;
+    }
+    .audio-icons li:last-child {
+        width: 100px;
+    }
+   
+}
