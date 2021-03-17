@@ -32,8 +32,8 @@ body {
     visibility: hidden;
 }
 /* nav home  */
-.nav-home li:hover {
-    border-left: 4px solid lawngreen;
+.nav-home img:hover {
+    border-left: 2px solid lawngreen;
     cursor: pointer;
 }
 .nav-home li {
@@ -41,11 +41,11 @@ body {
     margin: 0 auto;
     list-style: none;
 }
-/*nav-text-hidden s*/
-.nav-text:hover {
-    border-left: 3px solid lawngreen;
+.nav-text li:hover {
+    border-left: 2px solid lawngreen;
     cursor: pointer;
 }
+/*nav-text-hidden s*/
 .nav-text.hidden {
     visibility: hidden;
 }
@@ -107,6 +107,10 @@ body {
     border: 1px solid white;
     border-radius: 50px;
 }
+.upgrade:hover {
+    border: 1px solid lime;
+    cursor: pointer;
+}
 .upgrade h5 {
     text-align: center;
     font-size: 12px;
@@ -127,6 +131,10 @@ body {
     font-weight: 600;
     margin: 10px;
 }
+.lista-menu li:hover {
+    border-bottom: 1px solid lime;
+    cursor: pointer;
+}
 .lista-menu li {
     flex-basis: calc(100% / 4);
     padding: 5px;
@@ -143,7 +151,10 @@ body {
     padding: 10px;
 }
 .content-categorie .layout:hover {
-
+    opacity: 0.8;
+}
+.song {
+    position: relative;
 }
 .albums-liste {
     display: flex;
@@ -154,6 +165,10 @@ body {
     flex-basis: calc(100% / 2 - 15px);
     margin-right: 15px;
     margin-bottom: 15px;
+}
+.song:hover {
+    opacity: 0.8;
+    cursor: pointer;
 }
 .content-categorie .circle {
     border-radius: 100px;
@@ -199,10 +214,22 @@ body {
     font-size: 12px;
     color: #6c6c6c;
 }
+.footer-left img:hover {
+    cursor: pointer;
+    opacity: 0.5;
+}
+.text li:hover {
+    opacity: 0.5;
+    cursor: pointer;
+}
 .love {
     margin-left: 15px;
     list-style-type: none;
     color: #6c6c6c;
+}
+.love li:hover {
+    opacity: 0.5;
+    cursor: pointer;
 }
 .play {
     display: flex;
@@ -240,7 +267,6 @@ body {
     width: 50px;
     height: 3px;
     border-radius: 50px;
-
 }
 .music-play li {
     list-style: none;
@@ -284,4 +310,12 @@ body {
     height: 3px;
     background: #525252;
     border-radius: 20px;
+}
+.play li:hover {
+    opacity: 0.5;
+    cursor: pointer;
+}
+.music-play li:hover {
+    opacity: 0.5;
+    cursor: pointer;
 }
